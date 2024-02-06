@@ -1,0 +1,1 @@
+class TopProductHolder {  int? id;  String? name;  String? image;  String? axiomMonthlyPrice;  int? salePrice;  int? reviewsCount;  int? allCount;  TopProductHolder(this.id, this.name, this.image, this.axiomMonthlyPrice,      this.salePrice, this.reviewsCount, this.allCount);}

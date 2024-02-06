@@ -1,0 +1,1 @@
+part of 'shops_location_bloc.dart';@immutableabstract class ShopsLocationEvent {}class GetAllShopsEvent extends ShopsLocationEvent {}

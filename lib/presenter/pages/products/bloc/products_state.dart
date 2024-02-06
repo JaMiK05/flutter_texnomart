@@ -1,0 +1,1 @@
+part of 'products_bloc.dart';@immutableabstract class ProductsState {}class ProductsInitial extends ProductsState {}class GetAllProductsState extends ProductsState {  final ProductItemsModel data;  GetAllProductsState(this.data);}class LoadingState extends ProductsState {}

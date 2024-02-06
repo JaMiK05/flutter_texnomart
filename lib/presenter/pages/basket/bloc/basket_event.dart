@@ -1,0 +1,1 @@
+part of 'basket_bloc.dart';@immutableabstract class BasketEvent {}class GetAllProductsFromBasketEvent extends BasketEvent {}

@@ -1,0 +1,1 @@
+part of 'shops_location_bloc.dart';@immutableabstract class ShopsLocationState {}class ShopsLocationInitial extends ShopsLocationState {}class GetAllShopsState extends ShopsLocationState {  final ShopsMapModel data;  GetAllShopsState(this.data);}

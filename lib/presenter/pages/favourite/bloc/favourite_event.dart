@@ -1,0 +1,1 @@
+part of 'favourite_bloc.dart';@immutableabstract class FavouriteEvent {}class GetAllFavouriteProductsEvent extends FavouriteEvent {}class DeleteProductToFavouriteEvent extends FavouriteEvent {  final ProductHolder data;  DeleteProductToFavouriteEvent(this.data);}

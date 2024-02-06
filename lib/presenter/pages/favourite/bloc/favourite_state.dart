@@ -1,0 +1,1 @@
+part of 'favourite_bloc.dart';@immutableabstract class FavouriteState {}class FavouriteInitial extends FavouriteState {}class GetAllFavouriteProductsState extends FavouriteState {  final List<ProductHolder> data;  GetAllFavouriteProductsState(this.data);}//class DeleteFavouriteProductState

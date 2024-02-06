@@ -1,0 +1,1 @@
+part of 'products_bloc.dart';@immutableabstract class ProductsEvent {}class GetAllProductsEvent extends ProductsEvent {  final String slug;  GetAllProductsEvent(this.slug);}
